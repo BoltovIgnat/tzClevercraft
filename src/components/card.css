@@ -1,0 +1,127 @@
+@media (min-width: 1025px) {
+    .author,
+    .phase,
+    .description{
+        font-size: 18px;
+    }
+    .title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .empty {
+        margin-top: 25%;
+        font-size: 18px;
+    }
+    .filter {
+        font-size: 18px;
+        height: 10vh;
+        padding: 34px;
+        
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .author,
+    .phase,
+    .description {
+        font-size: 16px;
+    }
+    .title {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .empty {
+        font-size: 16px;
+        margin-top: 30%;
+    }
+    .filter {
+        font-size: 17px;
+        height: 9vh;
+        padding: 29px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .author,
+    .phase,
+    .description {
+        font-size: 15px;
+    }
+    .title {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .empty {
+        font-size: 15px;
+        margin-top: 45%;
+    }
+    .filter {
+        font-size: 16px;
+        height: 8vh;
+        padding: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .author,
+    .phase,
+    .description {
+        font-size: 14px;
+    }
+    .title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .empty {
+        font-size: 14px;
+        margin-top: 50%;
+    }
+    .filter {
+        font-size: 14px;
+        height: 7vh;
+        padding: 24px;
+    }
+}
+
+.form {
+    width: 100%;
+    border: 1px solid #999;
+    border-top: none;
+    padding: 12px;
+}
+
+.phase {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.description {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.tags {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.empty {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clear {
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
+.filtered {
+    padding-right: 5px;
+}
